@@ -32,6 +32,49 @@
     border-radius: 40%;
 }
 
+.scrolling-words-container {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.scrolling-words-box {
+    height: 3rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.scrolling-words-box ul {
+    margin: 0 0.625rem;
+    padding: 0;
+    animation: scrollUp 8s infinite;
+}
+
+.scrolling-words-box ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    list-style: none;
+}
+
+@keyframes scrollUp {
+    15%, 25% {
+        transform: translateY(-20%);
+    }
+    40%, 50% {
+        transform: translateY(-40%);
+    }
+    65%, 75% {
+        transform: translateY(-60%);
+    }
+    90%, 100% {
+        transform: translateY(-80%);
+    }
+}
+
 .icon {
     display: flex;
 }
@@ -39,11 +82,11 @@
 .fa-linkedin, .fa-github {
     min-width: 50px;
     height: auto;
-    padding: 10px 50px 90px 50px;
+    padding: 40px 50px 90px 50px;
     color: white;
 }
 
-.diff {
+.diff h1{
     margin: 0;
     color: rgb(0,23,54);
 }

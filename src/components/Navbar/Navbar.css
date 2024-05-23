@@ -26,7 +26,7 @@
     height: 50px;
 }
 
-.link1, .link2, .link3, .link4 {
+.link1, .link2, .link3, .link4, .link5 {
     font-size: 20px;
 }
 
@@ -34,7 +34,7 @@
     #nav-bar a {
         font-size: 2vw;
     }
-    .link1, .link2, .link3, .link4, .link5, .link6, .link7 {
+    .link1, .link2, .link3, .link4, .link5 {
         font-size: 4vw;
     }
 }

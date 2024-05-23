@@ -24,11 +24,11 @@ const About = () => {
     return (
         <div id="entire">
             <div id="info">
-                <div className="column">
+                <div className="info-column">
                     <div id="aboutMe">
                         <h2>About Me</h2>
                         <p>Isaiah is an aspiring software engineer with strong interests in algorithms, data structures, machine learning, and GPU programming</p>
-                        <button type="button" className="collapsible1"><a href="https://drive.google.com/file/d/1WB8BZVxB79HWEuT2PO4Io-R9I1jCI5WF/view?usp=sharing" rel="noreferrer" target="_blank">Resume</a></button>
+                        <a href="https://drive.google.com/file/d/1WB8BZVxB79HWEuT2PO4Io-R9I1jCI5WF/view?usp=sharing" rel="noreferrer" target="_blank"><button type="button" className="collapsible1">Resume</button></a>
                     </div>
                     <div id="skills">
                         <h2>Languages</h2>
@@ -52,7 +52,7 @@ const About = () => {
                         <h3><span className="arrow">&#x21D2;</span> React JS</h3>
                     </div>
                 </div>
-                <div className="column">
+                <div className="info-column">
                     <div id="education">
                         <h2>Education</h2>
                             <div className="school">

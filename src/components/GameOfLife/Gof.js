@@ -48,9 +48,9 @@ const Gof = () => {
         setGrid(next);
     }, [grid]); 
 
-    // useEffect(() => {
-    //     setTimeout(start, 300);
-    // }, [grid, start]);
+    useEffect(() => {
+        setTimeout(start, 300);
+    }, [grid, start]);
 
     return (
         <div>

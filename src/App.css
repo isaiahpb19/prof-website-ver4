@@ -1,13 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(242, 242, 242);
+}
+
 .App-header {
   background-color: rgb(0,23,54);
   display: flex;
   justify-content: space-evenly;
 }
-
-
-/* #home {
-  position: fixed;
-} */
 
 #home {
   display: flex;
@@ -17,50 +18,56 @@
   align-items: center;
 }
 
+.inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #about {
   display: flex;
   flex-direction: column;
   z-index: 3;
   align-items: center;
 }
-/* 
-#loadPixel {
-  position: relative;
-  top: 0;
-  left: 0;
-} */
-/* 
-#projects {
+
+.separator {
+  width: 100vw;
+  height: 15vh;
+  padding: 10px;
+} 
+
+#projects, #experience {
   display: flex;
-  flex-wrap: nowrap;
+  min-width: 100vw;
+  min-height: 50vh;
   overflow-x: auto;
-
-  .card {
-    display: inline-block;
-  }
-} */
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(242, 242, 242);
+  gap: 30px;
+  /* margin: 0;
+  padding: 0; */
+  align-items: center;
 }
 
-
-#projects {
-  display: flex;
-  background-color: #fff;
-  min-width: 100%;
-  min-height: 200px;
-  overflow-x: auto;
-}
-
-.card--content {
-  background-color: #e74c3c;
-  min-width: 200px;
+.cardContent, .cardContentLogo{
+  /* min-width: 200px; */
   margin: 5px;
+} 
+
+.cardContentLogo {
+  align-self: center;
+  text-align: center;
 }
 
 #projects::-webkit-scrollbar {
-display: none;
+  display: none;
+} 
+
+#projects h1 {
+  color: rgb(0, 23, 54);
+}
+
+#contact {
+  background-color: rgb(135, 135, 135);
+  height: 10vh;
+  padding: 10px;
 }
