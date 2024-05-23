@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/prof-website-ver4/static/css/main.506c05a3.css",
+    "main.js": "/prof-website-ver4/static/js/main.892807bb.js",
+    "static/js/453.2d43bb74.chunk.js": "/prof-website-ver4/static/js/453.2d43bb74.chunk.js",
+    "static/media/prof-photo.jpg": "/prof-website-ver4/static/media/prof-photo.c2480687ad6c906d3bbf.jpg",
+    "static/media/miniGenome.png": "/prof-website-ver4/static/media/miniGenome.8ac49c52390d3dd9a736.png",
+    "static/media/aiseCompiler.png": "/prof-website-ver4/static/media/aiseCompiler.4f6a9d001dfe9a9365ea.png",
+    "static/media/terminalRPG.png": "/prof-website-ver4/static/media/terminalRPG.506836873131a70f3f00.png",
+    "static/media/kaguraBachi.jpeg": "/prof-website-ver4/static/media/kaguraBachi.26b90b86b1454223fd20.jpeg",
+    "static/media/chainsawMan.jpg": "/prof-website-ver4/static/media/chainsawMan.004e2d2498586e3e85fa.jpg",
+    "static/media/edensZero.jpg": "/prof-website-ver4/static/media/edensZero.e0e06fc8e6b32eb8b48c.jpg",
+    "static/media/tomodachiGame.jpg": "/prof-website-ver4/static/media/tomodachiGame.b9d3a1739bc22f06bc26.jpg",
+    "static/media/oshiNoKo.jpg": "/prof-website-ver4/static/media/oshiNoKo.283665269ae10947c2e3.jpg",
+    "static/media/VCR_OSD_MONO_1.001.ttf": "/prof-website-ver4/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
+    "static/media/grandBlue.jpeg": "/prof-website-ver4/static/media/grandBlue.fd057ba5e12ece179490.jpeg",
+    "static/media/blueLock.jpeg": "/prof-website-ver4/static/media/blueLock.781686f268b8c54920b2.jpeg",
+    "index.html": "/prof-website-ver4/index.html",
+    "main.506c05a3.css.map": "/prof-website-ver4/static/css/main.506c05a3.css.map",
+    "main.892807bb.js.map": "/prof-website-ver4/static/js/main.892807bb.js.map",
+    "453.2d43bb74.chunk.js.map": "/prof-website-ver4/static/js/453.2d43bb74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.506c05a3.css",
+    "static/js/main.892807bb.js"
+  ]
+}
