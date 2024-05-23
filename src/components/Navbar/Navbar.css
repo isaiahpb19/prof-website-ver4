@@ -1,0 +1,40 @@
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#nav-bar a:hover {
+    background-color: rgb(255,197,74);
+    border-radius: 25px;
+}
+
+
+#nav-bar {
+    background: transparent;
+    backdrop-filter: blur(8px); 
+    margin-top: 1em;
+    max-width: 720px;
+    position: fixed;
+    z-index: 100;
+    /* background-color: rgb(48, 48, 48); */
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+
+.link1, .link2, .link3, .link4 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 745px) {
+    #nav-bar a {
+        font-size: 2vw;
+    }
+    .link1, .link2, .link3, .link4, .link5, .link6, .link7 {
+        font-size: 4vw;
+    }
+}

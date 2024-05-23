@@ -1,0 +1,32 @@
+.entry img{
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.entry h2 {
+    color: rgb(255,197,74);
+}
+
+.entry{
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(135, 135, 135);
+    width: 750px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.name-date {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+}

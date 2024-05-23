@@ -1,10 +1,22 @@
+/* @import url(https://db.onlinewebfonts.com/c/d03fdeed9cc2e75a1f2ccb658f1e836a?family=NudMotoyaExCedar+W6); */
+
+@font-face {
+  font-family: VcrOsdMono;
+  src: url("./fonts/VCR_OSD_MONO_1.001.ttf") format("opentype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "VcrOsdMono", "NudMotoyaExCedar W6", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(216, 216, 216);
 }
 
 code {

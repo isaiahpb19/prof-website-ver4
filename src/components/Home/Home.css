@@ -1,0 +1,55 @@
+/* @font-face {
+    font-family: FOT-SkipStd;
+    src: url("../fonts/FOT-Skip\ Std\ B.otf") format("opentype");
+} */
+
+#hero {
+    text-align: center;
+
+    position: relative;
+    bottom: 26em;
+
+    color: white;
+}
+
+#hero h1 {
+    font-size: 45px;
+    margin: 0;
+    padding: 4px;
+}
+
+#hero h3{
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+}
+
+#hero img{
+    margin-bottom: 1%;
+    max-width: 8em;
+    max-height: 8em;
+    border: 5px solid white;  
+    border-radius: 40%;
+}
+
+.icon {
+    display: flex;
+}
+
+.fa-linkedin, .fa-github {
+    min-width: 50px;
+    height: auto;
+    padding: 10px 50px 90px 50px;
+    color: white;
+}
+
+.diff {
+    margin: 0;
+    color: rgb(0,23,54);
+}
+
+@media screen and (max-width: 745px) {
+    #hero {
+        bottom: 30em;
+    }
+}
