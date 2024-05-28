@@ -93,7 +93,7 @@ function App() {
           <h1>Projects</h1>
         </div>
         <div className="cardContent">
-          <Project projectName="Mini-Genome Assembler" madeWith="Python, SeqIO, NetworkX" imageLink={miniGenome} date="April 2023" sourceCodeLink="https://github.com/isaiahpb19/Mini-Genome-Assembler" demo="" description=
+          <Project projectName="Mini-Genome Assembler" madeWith="Python, SeqIO, NetworkX" imageLink={miniGenome} date="April 2024" sourceCodeLink="https://github.com/isaiahpb19/Mini-Genome-Assembler" demo="" description=
           "This assembler reads a FASTA file that has some number of reads and reconstructs the reference genome from these reads based on overlaps. We define a best right-buddy where a read's suffix matches with at least 40 characters of a different read's prefix. Duplicate best right-buddies are prohibited and the best-buddy with the most matches stays. In order to avoid exponential computation, used a 40-mer dictionary to get possible candidates. After this we get the best left-buddies, construct the partial genome, then construct the reference genome"
           />
         </div>

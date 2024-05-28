@@ -1,13 +1,13 @@
 import React, { useState, useCallback, useEffect} from "react";
 
-const numRow = 17;
-const numCol = 45;
+const numRow = 36;
+const numCol = 96;
 
 const Gof = () => {
     const [grid, setGrid] = useState(() => {
         const row = [];
         for(let i = 0; i < numRow; i++) {
-            row.push(Array.from(Array(numCol), () => (Math.random() > 0.45 ? 1 : 0)));
+            row.push(Array.from(Array(numCol), () => (Math.random() > 0.70 ? 1 : 0)));
         }
         return row;
     });
@@ -49,7 +49,7 @@ const Gof = () => {
     }, [grid]); 
 
     useEffect(() => {
-        setTimeout(start, 300);
+        setTimeout(start, 200);
     }, [grid, start]);
 
     return (
@@ -57,13 +57,13 @@ const Gof = () => {
             <div style={{
                 overflow: 'hidden',
                 display: 'grid',
-                gridTemplateColumns: `repeat(${numCol}, 32px)`,
+                gridTemplateColumns: `repeat(${numCol}, 15px)`,
             }}>
                 {grid.map((row, i) => 
                     row.map((col, j) => <div key={`${i}, ${j}`}
                         style={{
-                            width: 32, 
-                            height: 32,
+                            width: 15, 
+                            height: 15,
                             backgroundColor: grid[i][j] ? 'rgb(48, 48, 48)' : 'rgb(0,23,54)',
                             border: "solid 1px rgb(0,23,54)"
                         }}
