@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prof-website-ver4/static/css/main.506c05a3.css",
-    "main.js": "/prof-website-ver4/static/js/main.892807bb.js",
+    "main.js": "/prof-website-ver4/static/js/main.c3da6a98.js",
     "static/js/453.2d43bb74.chunk.js": "/prof-website-ver4/static/js/453.2d43bb74.chunk.js",
     "static/media/prof-photo.jpg": "/prof-website-ver4/static/media/prof-photo.c2480687ad6c906d3bbf.jpg",
     "static/media/miniGenome.png": "/prof-website-ver4/static/media/miniGenome.8ac49c52390d3dd9a736.png",
@@ -17,11 +17,11 @@
     "static/media/blueLock.jpeg": "/prof-website-ver4/static/media/blueLock.781686f268b8c54920b2.jpeg",
     "index.html": "/prof-website-ver4/index.html",
     "main.506c05a3.css.map": "/prof-website-ver4/static/css/main.506c05a3.css.map",
-    "main.892807bb.js.map": "/prof-website-ver4/static/js/main.892807bb.js.map",
+    "main.c3da6a98.js.map": "/prof-website-ver4/static/js/main.c3da6a98.js.map",
     "453.2d43bb74.chunk.js.map": "/prof-website-ver4/static/js/453.2d43bb74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.506c05a3.css",
-    "static/js/main.892807bb.js"
+    "static/js/main.c3da6a98.js"
   ]
 }
